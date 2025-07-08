@@ -1,0 +1,105 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    background-color: #eef2f3;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: palegreen;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+}
+
+.blog-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.author-info {
+    text-align: center;
+    margin: 20px 0;
+    color: #555;
+}
+
+.comments-section, .posts-section {
+    margin: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: black;
+}
+
+.char-count {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.comment {
+    background: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 5px solid #007bff;
+}
+
+.comment-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.like-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.like-button:hover {
+    text-decoration: underline;
+}
+
+.post {
+    background: #f1f1f1;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.post h3 {
+    margin: 0 0 10px;
+}

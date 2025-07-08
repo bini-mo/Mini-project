@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog Post</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Welcome to my Blog</h1>
+            <img src="https://via.placeholder.com/800*400" alt="Blog Image" class="blog-image">
+        </header>
+
+        <section class="author-info">
+            <h3>Author: Biniyam Moges</h3>
+            <p>Biniyam Moges is a passionate writer and blogger focused on technology, travel, and personal development. His engaging writing style aims to inspire and connect readers. Biniyam believes in the power of words to foster meaningful discussions. He is actively involved in various projects that reflect his interests. Follow him for more insights and updates and join him on his journey of exploration!</p>
+        </section>
+
+        <section class="comments-section">
+                <h2>Leave a Comment</h2>
+                <form id="commentForm">
+                       <input type="text" id="username" placeholder="Your Name" required><br>
+                       <textarea id="comment" placeholder="Your Comment" required></textarea><br>
+                       <div class="char-count" id="charCount">0/200</div>
+                       <button type="submit">Submit Comment</button>
+                </form>
+                <div id="commentsDisplay"></div>
+        </section>
+
+
+        <section class="posts-section">
+            <h2>Recent Blog Posts</h2>
+            <div id="postsContainer"></div>
+        </section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+        
